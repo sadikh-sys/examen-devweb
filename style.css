@@ -1,0 +1,121 @@
+body {
+  background-color: #7f9cf5;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.conteneur-jeu {
+  background: #7f9cf5;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.blocs-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.bloc-stat {
+  background: white;
+  border-radius: 8px;
+  padding: 8px 10px;
+  min-width: 65px;
+  margin: 0 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.07);
+}
+
+.stat-titre {
+  font-size: 12px;
+  color: #4a5568;
+}
+
+.stat-valeur {
+  font-size: 20px;
+  color: #2a4365;
+  font-weight: bold;
+}
+
+.conteneur-barre {
+  width: 100%;
+  background: #e3e8ee;
+  height: 8px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.barre-temps {
+  height: 100%;
+  background: #48bb78;
+  width: 100%;
+  border-radius: 5px;
+  transition: width 0.25s linear;
+}
+
+#mot {
+  font-size: 24px;
+  background: #ffffff;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  user-select: none;
+}
+
+#champ-mot {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#champ-mot.bonne-saisie {
+  border: 3px solid green;
+}
+
+#champ-mot.mauvaise-saisie {
+  border: 3px solid red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-commencer {
+  background-color: green;
+}
+
+#btn-recommencer {
+  background-color: red;
+}
+
+#message-final {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#mot.bon-mot {
+  background-color: #c6f6d5; /* vert clair */
+  border-color: green;
+  color: green;
+}
+
+#mot.mauvais-mot {
+  background-color: #feb2b2; /* rouge clair */
+  border-color: red;
+  color: red;
+}
