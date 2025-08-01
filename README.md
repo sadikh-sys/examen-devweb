@@ -1,2 +1,2 @@
 HELLO MR,
-ci-desuus se etrouve les fichiers de mon site.
+ci-dessus se trouve les fichiers de mon site.
